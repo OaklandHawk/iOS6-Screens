@@ -42,6 +42,11 @@ class NumberedViewController: UIViewController {
         
     }
     
+    @IBAction func done(_sender: Any) {
+        navigationController?.popToRootViewController(animated: true)
+        
+    }
+    
     
     let label = UILabel() //zero sized label
 
