@@ -230,11 +230,18 @@
                         <viewLayoutGuide key="safeArea" id="k8a-gX-Vnh"/>
                     </view>
                     <navigationItem key="navigationItem" title="Yellow" id="Uqq-Qg-hHu">
-                        <barButtonItem key="rightBarButtonItem" title="Done" id="6se-iU-VZh">
-                            <connections>
-                                <segue destination="521-Zi-Ak1" kind="unwind" unwindAction="unwindToRed:" id="FPS-oD-iRS"/>
-                            </connections>
-                        </barButtonItem>
+                        <rightBarButtonItems>
+                            <barButtonItem title="Repeat" id="obw-Mc-199">
+                                <connections>
+                                    <segue destination="4P8-Ta-zL0" kind="show" id="Rvk-9K-8hN"/>
+                                </connections>
+                            </barButtonItem>
+                            <barButtonItem title="Done" id="6se-iU-VZh">
+                                <connections>
+                                    <segue destination="521-Zi-Ak1" kind="unwind" unwindAction="unwindToRed:" id="FPS-oD-iRS"/>
+                                </connections>
+                            </barButtonItem>
+                        </rightBarButtonItems>
                     </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5o9-nV-Rum" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -243,4 +250,7 @@
             <point key="canvasLocation" x="2893" y="-1315"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="Rvk-9K-8hN"/>
+    </inferredMetricsTieBreakers>
 </document>
