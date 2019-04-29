@@ -13,7 +13,7 @@
         <!--Red-->
         <scene sceneID="dab-ex-E4U">
             <objects>
-                <viewController id="4P8-Ta-zL0" sceneMemberID="viewController">
+                <viewController id="4P8-Ta-zL0" customClass="NumberedViewController" customModule="iOS6_Screens" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="G2j-WR-PAA">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -35,7 +35,7 @@
         <!--Green-->
         <scene sceneID="Bpi-Vq-8QJ">
             <objects>
-                <viewController id="5tx-Vr-dWv" sceneMemberID="viewController">
+                <viewController id="5tx-Vr-dWv" customClass="NumberedViewController" customModule="iOS6_Screens" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="T30-92-Bol">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -57,7 +57,7 @@
         <!--Purple-->
         <scene sceneID="eDA-8v-EMC">
             <objects>
-                <viewController id="3v4-y0-euJ" sceneMemberID="viewController">
+                <viewController id="3v4-y0-euJ" customClass="NumberedViewController" customModule="iOS6_Screens" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Lb5-pm-BvS">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -79,7 +79,7 @@
         <!--Orange-->
         <scene sceneID="BvR-uQ-nB2">
             <objects>
-                <viewController id="Nx1-gY-zVf" sceneMemberID="viewController">
+                <viewController id="Nx1-gY-zVf" customClass="NumberedViewController" customModule="iOS6_Screens" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ddz-ub-MBW">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
