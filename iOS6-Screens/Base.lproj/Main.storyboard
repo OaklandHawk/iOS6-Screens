@@ -13,7 +13,7 @@
         <!--Red-->
         <scene sceneID="dab-ex-E4U">
             <objects>
-                <viewController id="4P8-Ta-zL0" customClass="NumberedViewController" customModule="iOS6_Screens" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="4P8-Ta-zL0" customClass="RedViewController" customModule="iOS6_Screens" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="G2j-WR-PAA">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -43,11 +43,18 @@
                         <viewLayoutGuide key="safeArea" id="EIZ-cZ-NbL"/>
                     </view>
                     <navigationItem key="navigationItem" title="Green" id="WIy-6f-G3u">
-                        <barButtonItem key="rightBarButtonItem" title="Purple" id="a8r-KW-tCe">
-                            <connections>
-                                <segue destination="3v4-y0-euJ" kind="show" id="MAC-Yx-sIO"/>
-                            </connections>
-                        </barButtonItem>
+                        <rightBarButtonItems>
+                            <barButtonItem title="Purple" id="a8r-KW-tCe">
+                                <connections>
+                                    <segue destination="3v4-y0-euJ" kind="show" id="MAC-Yx-sIO"/>
+                                </connections>
+                            </barButtonItem>
+                            <barButtonItem title="Blue" id="KEj-5o-voc">
+                                <connections>
+                                    <segue destination="ipf-Ho-vho" kind="show" id="YFM-eb-lIb"/>
+                                </connections>
+                            </barButtonItem>
+                        </rightBarButtonItems>
                     </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xyW-eu-xXi" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -189,6 +196,51 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="osf-09-5PW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="202.89855072463769" y="-601.33928571428567"/>
+        </scene>
+        <!--Blue-->
+        <scene sceneID="Ady-il-mzQ">
+            <objects>
+                <viewController id="ipf-Ho-vho" customClass="NumberedViewController" customModule="iOS6_Screens" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="CUn-4U-ipr">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.016804177310000001" green="0.19835099580000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="SK8-aj-4xi"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Blue" id="Vm8-q4-IKF">
+                        <barButtonItem key="rightBarButtonItem" title="Yellow" id="iMc-Ds-1pV">
+                            <connections>
+                                <segue destination="GIY-9d-LWC" kind="show" id="YUg-az-FFr"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="i0W-31-itU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2016" y="-1314"/>
+        </scene>
+        <!--Yellow-->
+        <scene sceneID="y5w-pt-lb6">
+            <objects>
+                <viewController id="GIY-9d-LWC" customClass="NumberedViewController" customModule="iOS6_Screens" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="NDJ-kk-Qg9">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="k8a-gX-Vnh"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Yellow" id="Uqq-Qg-hHu">
+                        <barButtonItem key="rightBarButtonItem" title="Done" id="6se-iU-VZh">
+                            <connections>
+                                <segue destination="521-Zi-Ak1" kind="unwind" unwindAction="unwindToRed:" id="FPS-oD-iRS"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5o9-nV-Rum" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="521-Zi-Ak1" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="2893" y="-1315"/>
         </scene>
     </scenes>
 </document>

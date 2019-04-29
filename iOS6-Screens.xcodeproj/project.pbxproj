@@ -12,6 +12,7 @@
 		F51B489222775B0F0011B0CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F51B489122775B0F0011B0CB /* Assets.xcassets */; };
 		F51B489522775B0F0011B0CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F51B489322775B0F0011B0CB /* LaunchScreen.storyboard */; };
 		F51B489D22776CE20011B0CB /* NumberedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51B489C22776CE20011B0CB /* NumberedViewController.swift */; };
+		F51B489F227772C90011B0CB /* RedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51B489E227772C90011B0CB /* RedViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		F51B489422775B0F0011B0CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F51B489622775B0F0011B0CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F51B489C22776CE20011B0CB /* NumberedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberedViewController.swift; sourceTree = "<group>"; };
+		F51B489E227772C90011B0CB /* RedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				F51B489C22776CE20011B0CB /* NumberedViewController.swift */,
 				F51B488A22775B0D0011B0CB /* AppDelegate.swift */,
 				F51B488E22775B0D0011B0CB /* Main.storyboard */,
+				F51B489E227772C90011B0CB /* RedViewController.swift */,
 				F51B489122775B0F0011B0CB /* Assets.xcassets */,
 				F51B489322775B0F0011B0CB /* LaunchScreen.storyboard */,
 				F51B489622775B0F0011B0CB /* Info.plist */,
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F51B489D22776CE20011B0CB /* NumberedViewController.swift in Sources */,
+				F51B489F227772C90011B0CB /* RedViewController.swift in Sources */,
 				F51B488B22775B0D0011B0CB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
